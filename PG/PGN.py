@@ -16,4 +16,4 @@ def create_policy_network(learn_rate, input_dims, n_actions, conv_units, dense_u
 
     model.compile(optimizer=Adam(lr=learn_rate), loss='categorical_crossentropy')
 
-    return model
+    return model
