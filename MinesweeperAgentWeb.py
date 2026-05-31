@@ -186,4 +186,4 @@ class MinesweeperAgentWeb(object):
             self.board = self.get_board(self.loc)
             self.state = self.get_state(self.board)
 
-        return self.state, done
+        return self.state, done
