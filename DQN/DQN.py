@@ -15,4 +15,4 @@ def create_dqn(learn_rate, input_dims, n_actions, conv_units, dense_units):
 
     model.compile(optimizer=Adam(lr=learn_rate, epsilon=1e-4), loss='mse')
 
-    return model
+    return model
